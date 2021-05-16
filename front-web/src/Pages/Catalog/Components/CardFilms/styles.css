@@ -1,0 +1,48 @@
+.catalog-content-card{
+    width: 270px;
+    height: 375px;
+    margin-left: 20px;
+    background: #6C6C6C;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-top: 15px;
+}
+.catalog-img{
+    width: 270px;
+    height: 180px;
+    margin-top: 25px;
+}
+.catalog-title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.catalog-ano{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    color: #FFC700;
+    mix-blend-mode: normal;
+    margin-left: 15px;
+}
+.catalog-subTitle{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-left: 15px;
+}

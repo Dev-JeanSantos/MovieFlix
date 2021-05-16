@@ -1,0 +1,41 @@
+.home-container{
+    background-color:#525252;
+    height: "100%";
+    display: flex;
+    padding-bottom: 19px;
+ 
+}
+.home-title{
+    height: 75px;
+    margin-top: 20px;
+    margin-left: 160px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 75px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+.home-subTitle{
+    width: 531px;
+    height: 20px;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    color: #F2F2F2;
+}
+
+.home-image{
+    padding-top: 30px;
+    margin-bottom: 0px;
+    width: 500px;
+    height: 320px;
+    margin-left: 140px;
+}
+

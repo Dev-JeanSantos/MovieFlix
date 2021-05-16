@@ -1,0 +1,15 @@
+.back-container{
+    text-align: right;
+}
+.back-text{
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-bottom: -20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
