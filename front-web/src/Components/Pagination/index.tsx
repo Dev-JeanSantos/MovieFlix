@@ -1,4 +1,3 @@
-import React from 'react';
 import './styles.css';
 import { generateList } from '../../Core/Utils/list';
 
@@ -16,7 +15,7 @@ const Pagination = ( {totalPages, activePage, onChange} :Props) => {
             {items.map(item => (
                 <div
                     key={item}
-                    className={`pagination-item ${item === activePage && 'active'}`}
+                    className={`pagination-item ${item === activePage ? 'active' : ''}`}
                     onClick={() => onChange(item)}
                 >
                     {item + 1}

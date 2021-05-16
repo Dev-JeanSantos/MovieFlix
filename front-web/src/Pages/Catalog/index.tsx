@@ -23,7 +23,7 @@ const Catalog = () => {
     const getFilms = useCallback((filter?: FilterForm) => {
         const params = {
             page: activePage,
-            size: 4,
+            size: 8,
             genreId: filter?.genreId
         }
         setIsLoading(true);
@@ -54,12 +54,15 @@ const Catalog = () => {
                         ))
                     )}
                 </div>
-            </div>
-            {filmsResponse && <Pagination
+                {filmsResponse && (
+                <Pagination
                 totalPages={filmsResponse.totalPages}
                 activePage={activePage}
-                onChange={page => setActivePage(page)}
-            />}
+                onChange={(page) => setActivePage(page)}
+            />
+            )}
+            </div>
+          
         </>
     );
 };
