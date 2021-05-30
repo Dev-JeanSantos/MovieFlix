@@ -269,24 +269,30 @@ const theme = StyleSheet.create({
         borderWidth: 1,
         paddingLeft: 20,
         borderColor: colors.ice,
-
+    },
+    textInputPassword: {
+        width: 240
     },
     inputPassowrd: {
         flexDirection: "row",
-        marginTop: 32,
         alignContent: "center",
+        width: 340,
+        borderWidth: 1,
+        height: 50,
+        backgroundColor: colors.white,
+        borderRadius: 10,
+        marginTop: 30,
+        marginLeft: 35,
+        paddingLeft: 20,
+        borderColor: colors.ice,
 
     },
     toogle: {
-        width: 80,
-        height: 30,
+        width: '85%',
+        height: 50,
         justifyContent: 'center',
-        marginTop: 40,
-        paddingRight: 20,
-        marginLeft: -50,
-    },
-    eyes: {
-
+        marginLeft: 20,
+        padding:8
     },
 
     setaLogin: {

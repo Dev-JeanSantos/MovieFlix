@@ -44,11 +44,12 @@ const Login: React.FC = () => {
                             setUserInfo(newUserInfo);
                         }}
                     />
+
                     <View style={theme.inputPassowrd}>
                         <TextInput
                             placeholder="Senha"
                             autoCapitalize="none"
-                            style={theme.textInput}
+                            style={theme.textInputPassword}
                             value={userInfo.password}
                             secureTextEntry={hidePassowrd}
                             onChangeText={(e) => {
@@ -67,6 +68,7 @@ const Login: React.FC = () => {
                                 style={theme.eyes} />
                         </TouchableOpacity>
                     </View>
+                   
                     <TouchableOpacity
                         style={theme.loginButton}
                         activeOpacity={0.8}
